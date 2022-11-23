@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indicador de edad</title>
+</head>
+<script>
+    function comparar(){ 
+        var person1N = document.getElementById("person1N").value;
+        var person2N = document.getElementById("person2N").value;
+        var person1E = document.getElementById("person1E").value;
+        var person2E = document.getElementById("person2E").value;
+    }
+</script>
+<body>
+    <h4>Dime tu nombre y tu edad</h4>
+    <input type="text" id="person1N">
+    <input type="number" id="person1E">
+    <br>
+    <h4>Dime el nombre y la edad de tu amigo</h4>
+    <input type="text" id="person2N">
+    <input type="number" id="person2E">
+    <br><BR>
+    <input type="button" value="Calcular" onclick="comparar()">
+</body>
+</html>
